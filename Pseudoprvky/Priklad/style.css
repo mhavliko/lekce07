@@ -6,6 +6,26 @@ body {
 	font: 16px/1.5 sans-serif;
 }
 
+.odstavec1::first-letter {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.odstavec2::first-line {
+  font-size: 30px;
+  color: blueviolet;
+}
+
+h1::before {
+  content: "bbb";
+}
+
+h1::after {
+  content: "*";
+  color: red;
+}
+
 /*************************************************/
 
 /*
